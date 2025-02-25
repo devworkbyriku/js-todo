@@ -1,0 +1,66 @@
+
+
+
+
+
+body{
+    font-family: sans-serif;
+    color: #666;
+}
+
+
+input{
+    border-radius: 8px;
+}
+
+
+button{
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover{
+    color: #fff;
+    background: #027f9e;
+}
+
+.input-area{
+    background: #81d2f7;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px;
+    height: auto;
+    }
+
+
+.incomplete-area{
+    border:2px solid #81f7ed;
+    margin: 20px;
+    border-radius: 8px;
+    min-height: 200px;
+}
+
+.complete-area{
+    border:2px solid #81ccf7;
+    background: #81ccf7;
+    margin: 20px;
+    border-radius: 8px;
+    min-height: 200px;
+}
+
+
+.title{
+    text-align: center;
+}
+
+.list-row{
+    display: flex;
+    align-items: center;
+
+}
+
+.todo-item{
+    margin: 6px;
+}
+
+
